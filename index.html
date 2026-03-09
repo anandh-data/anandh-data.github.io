@@ -2,188 +2,140 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Anandhageethan Thamizarasan | Data Analytics Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anandhageethan Thamizharasan | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 <style>
-
-body{
-font-family: 'Inter', sans-serif;
-margin:0;
-background:#ffffff;
-color:#0f172a;
-}
-
-.container{
-max-width:1100px;
-margin:auto;
-padding:60px 20px;
-}
-
-.hero{
-text-align:center;
-padding:100px 20px;
-}
-
-.hero h1{
-font-size:48px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:20px;
-color:#64748b;
-}
-
-.button{
-display:inline-block;
-padding:12px 24px;
-margin:10px;
-border-radius:8px;
-background:#2563eb;
-color:white;
-text-decoration:none;
-font-weight:500;
-}
-
-.section-title{
-font-size:32px;
-margin-bottom:30px;
-text-align:center;
-}
-
-.tech-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-gap:20px;
-}
-
-.tech-card{
-background:#f8fafc;
-padding:30px;
-text-align:center;
-border-radius:12px;
-box-shadow:0 10px 20px rgba(0,0,0,0.05);
-transition:0.3s;
-}
-
-.tech-card:hover{
-transform:translateY(-5px);
-}
-
-.tech-card img{
-width:40px;
-margin-bottom:10px;
-}
-
-.projects{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:30px;
-}
-
-.project-card{
-border:1px solid #e5e7eb;
-border-radius:12px;
-padding:25px;
-box-shadow:0 10px 20px rgba(0,0,0,0.04);
-transition:0.3s;
-}
-
-.project-card:hover{
-transform:translateY(-5px);
-}
-
-.project-card h3{
-margin-top:0;
-}
-
-.footer{
-text-align:center;
-padding:40px;
-color:#64748b;
-}
-
+body{margin:0;font-family:Poppins;background:#1f2228;color:#fff}
+.container{width:90%;max-width:1200px;margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+nav a{color:#fff;margin-left:20px;text-decoration:none}
+.hero{display:flex;align-items:center;justify-content:space-between;padding:80px 0}
+.hero h1{font-size:48px;margin:0}
+.hero p{color:#aaa}
+.btn{background:#d4a24c;color:#000;padding:10px 20px;border-radius:6px;text-decoration:none;margin-right:10px}
+.section{padding:60px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{background:#2b2f36;padding:20px;border-radius:10px;text-align:center}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:25px}
+.project{background:#2b2f36;padding:20px;border-radius:10px}
+.contact{background:#2b2f36;padding:30px;border-radius:10px;text-align:center}
+footer{text-align:center;padding:30px;color:#aaa}
 </style>
 </head>
-
 <body>
 
-<section class="hero">
-<h1>Anandhageethan Thamizharasan</h1>
-<p>Senior Data Analyst | Analytics Engineering | Data Platforms</p>
+<div class="container">
 
-<a class="button" href="https://github.com/anandh-data">GitHub</a>
-<a class="button" href="https://linkedin.com">LinkedIn</a>
+<nav>
+<div><b>Anandh</b></div>
+<div>
+<a href="#about">About</a>
+<a href="#projects">Portfolio</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<div>
+<h1>Anandhageethan Thamizharasan</h1>
+<p>Senior Data Analyst & Analytics Engineer</p>
+<p>Building scalable analytics platforms using Python, SQL, AWS, Snowflake, and modern data stack.</p>
+<a class="btn" href="#projects">View Projects</a>
+</div>
 </section>
 
-<div class="container">
+<section id="about" class="section">
+<h2>About</h2>
+<p>
+Senior Data Analyst with 5+ years experience at Fidelity National Financial analyzing nationwide property datasets and building scalable SQL and Python analytics pipelines.
+</p>
+</section>
 
-<h2 class="section-title">Tech Stack</h2>
-
-<div class="tech-grid">
-
-<div class="tech-card">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-<p>Python</p>
+<section class="section">
+<h2>Tech Stack</h2>
+<div class="grid">
+<div class="card">Python</div>
+<div class="card">SQL</div>
+<div class="card">Snowflake</div>
+<div class="card">AWS</div>
+<div class="card">PostgreSQL</div>
+<div class="card">Power BI</div>
+<div class="card">dbt</div>
+<div class="card">Airflow</div>
+<div class="card">Spark</div>
+<div class="card">Hadoop</div>
 </div>
+</section>
 
-<div class="tech-card">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
-<p>PostgreSQL</p>
-</div>
-
-<div class="tech-card">
-<img src="https://www.vectorlogo.zone/logos/snowflake/snowflake-icon.svg">
-<p>Snowflake</p>
-</div>
-
-<div class="tech-card">
-<img src="https://seeklogo.com/images/D/dbt-logo-500AB0BAA7-seeklogo.com.png">
-<p>dbt</p>
-</div>
-
-<div class="tech-card">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg">
-<p>AWS</p>
-</div>
-
-<div class="tech-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg">
-<p>Power BI</p>
-</div>
-
-</div>
-
-</div>
-
-<div class="container">
-
-<h2 class="section-title">Projects</h2>
-
+<section id="projects" class="section">
+<h2>Portfolio</h2>
 <div class="projects">
 
-<div class="project-card">
+<div class="project">
 <h3>FinTech Fraud Analytics</h3>
-<p>End-to-end fraud analytics pipeline analyzing 590k financial transactions using Python, PostgreSQL, dbt, and Power BI.</p>
-<a href="https://github.com/anandh-data/fintech-fraud-analytics">View Project</a>
+<p>Fraud detection analytics pipeline using Python, PostgreSQL, dbt and Power BI.</p>
+<a class="btn" href="https://github.com/anandh-data/fintech-fraud-analytics">GitHub</a>
 </div>
 
-<div class="project-card">
+<div class="project">
 <h3>Healthcare Cost Analytics</h3>
-<p>Healthcare analytics pipeline analyzing CMS hospital cost reports using Python, AWS S3, Snowflake, dbt, and Power BI.</p>
-<a href="https://github.com/anandh-data/healthcare-cost-analytics">View Project</a>
+<p>Healthcare analytics platform analyzing CMS hospital cost reports using Snowflake, dbt and AWS.</p>
+<a class="btn" href="https://github.com/anandh-data/healthcare-cost-analytics">GitHub</a>
+</div>
+
+<div class="project">
+<h3>NYC Taxi Lakehouse Analytics</h3>
+<p>AWS lakehouse analytics pipeline analyzing NYC taxi trip data.</p>
+<a class="btn" href="https://github.com/anandh-data">GitHub</a>
+</div>
+
+<div class="project">
+<h3>Job Market Intelligence</h3>
+<p>Analytics pipeline collecting and analyzing tech job postings using ETL pipelines.</p>
+<a class="btn" href="https://github.com/anandh-data">GitHub</a>
 </div>
 
 </div>
+</section>
 
+<section class="section">
+<h2>Experience</h2>
+
+<h3>Senior Data Analyst — Fidelity National Financial</h3>
+<p>Oct 2020 – Aug 2024</p>
+<ul>
+<li>Analyzed nationwide property ownership datasets supporting title search operations.</li>
+<li>Built SQL analytics pipelines reconstructing chain-of-title ownership histories.</li>
+<li>Developed Power BI dashboards for title production teams.</li>
+<li>Designed Python ETL pipelines ingesting county recorder datasets.</li>
+<li>Modeled large property datasets in AWS Redshift.</li>
+</ul>
+
+<h3>Data Analyst — Fidelity National Financial</h3>
+<p>Mar 2019 – Sep 2020</p>
+<ul>
+<li>Developed SQL operational reporting pipelines.</li>
+<li>Maintained Power BI dashboards for regional operations teams.</li>
+<li>Supported data lineage documentation for compliance.</li>
+</ul>
+
+</section>
+
+<section id="contact" class="section">
+<div class="contact">
+<h2>Contact Me</h2>
+<p>Email: anandh1920@outlook.com</p>
+<p>Phone: +1 6469815323</p>
+<p>GitHub: https://github.com/anandh-data</p>
+<p>LinkedIn: https://linkedin.com</p>
 </div>
+</section>
 
-<div class="footer">
-<p>© 2026 Anandhageethan Thamizharasan | Data Analytics Portfolio</p>
+<footer>
+Thanks for scrolling
+</footer>
+
 </div>
 
 </body>
